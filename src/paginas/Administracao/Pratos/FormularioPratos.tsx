@@ -57,7 +57,7 @@ const FormularioPrato = () => {
                 setTag('')
                 setRestaurante('')
                 setImagem(null)
-                alert('Prato cadastrado com sucesso!')
+                alert("Prato cadastrado com sucesso")
             })
             .catch((erro) => console.log(erro))
     } 
