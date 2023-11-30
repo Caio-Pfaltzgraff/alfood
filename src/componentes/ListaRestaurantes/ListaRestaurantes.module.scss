@@ -2,3 +2,71 @@
   margin-top: 1.5rem;
   padding: 2rem;
 }
+
+.formulario{
+  display: flex;
+  gap: 10px;
+  
+  &__buscador {
+    display: flex;
+    height: 48px;
+    width: 400px;
+    input {
+      background-color: #e4e4e4;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      width: 100%;
+      padding: 0 20px;
+      font-size: 1.3rem;
+      &::placeholder {
+        color: #4c4d5e;
+      }
+    }
+  }
+
+  &__ordenador {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    height: 48px;
+
+    label {
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    select {
+      width: 200px;
+      height: 48px;
+      font-size: 1.3rem;
+      background-color: #e4e4e4;
+      border-radius: 8px;
+      border: 2px solid transparent;
+
+      option {
+        color: #4c4d5e;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__botao {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    button {
+      font-size: 1.3rem;
+      font-weight: 600;
+      background-color: #363e50;
+      color: #FFF;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      padding: 8px 12px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(54, 62, 80, 0.8);
+      }
+    }
+  }
+}
